@@ -40,7 +40,7 @@ jobs:
           make bacon -j2
 
       - name: Upload ROM output
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: ROM
           path: rom/out/target/product/rolex/*.zip
